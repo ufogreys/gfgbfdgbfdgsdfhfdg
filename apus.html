@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Web3 and moralis-->
+	<script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/moralis@0.0.184/dist/moralis.js"></script>
+    
+  <!--Font awesome-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <!--open sea-->
+  <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>  
+   
+    <link rel="shortcut icon" href="./assets/img/Walle32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+  
+    
+
+    <title>WalleBytes: Project Apus</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <nav class="menu navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="./index.html"><b>WalleBytes</b></a>&nbsp;<img src="./assets/img/WALY_STAKING.png" width="50px" alt="">
+      <div class="navbar-collapse collapse justify-content-end">
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="./index.html" class="btn button_Nav btn-homepage btn-outline-dark light-b-shadow" id="walleBytesDapp" style="margin-right:5px;">WalleBytes</a></li>
+            <li class="nav-item"><a href="https://www.walletmonsters.io" target="blank_" class="btn button_Nav btn-homepage btn-outline-dark light-b-shadow" id="btn-WalletMonsters" style="margin-right:10px;">Wallet Monsters</a></li>
+            <li class="nav-item"><a href="https://docs.google.com/document/u/2/d/e/2PACX-1vRRaVGiqZb4IF6u-o_vjEsPiDAIqZi70KMCR3-S8JvRl8BUsVSxzrNM14LX_Bktz1z2aBMdGgxDjFow/pub" target="blank_" type="button" class="btn button_Nav btn-homepage btn-outline-dark light-b-shadow" id="btn-bytesPaper" style="margin-right:10px;">Bytes-Paper</a></li>
+            <li class="nav-item"><a href="https://opensea.io/collection/wallecollection" target="blank_" type="button" class="btn button_Nav btn-homepage btn-outline-dark light-b-shadow" id="btn-OpenSea" style="margin-right:10px;"><img src="./assets/img/OpenSea-Full-Logo.png" alt="Opensea logo" style="width: 80px;"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      <div class="promo">
+            <div class="banner">
+              <div style="display:flex; justify-content: center;"><img style="display:flex; justify-content: center;" width="900px;" src="./assets/img/Apus_OpenSeaBanner.png" alt=""></div>
+              <br>
+   
+            </div>
+          
+      </div>
+    </div>  
+  </header>
+  <div class="container">
+
+    <div class="mainContent" id="signedInUser">
+      <section class="sideBar" style="margin-right: 10px;">
+        <h3>DApp Navigation</h3>
+          <section>
+            <div class="btn-group d-grid gap-lg-3 col-lg-auto mx-auto" role="group" aria-label="Button group with nested dropdown">
+                <button class="btn btn-warning light-b-shadow" type="button" id="shopBtn" onclick="alert('Apus shop is closed, your still early GM!')" >Apus Shop</button>
+            </div>
+        </section>
+      </section>
+
+      <section class="centerContent light-b-shadow">
+            <div style="display: flex; justify-content: center;">
+                <article>
+                    Welcome Trainers, you have been given coordinates to the Wallet Monsters Apus Sector, 
+                    a training simulator built by Prof. Kalito isolated from the Immutable World Of Wallet 
+                    Monsters and live on Polygon Mainnet. Trainers can raise, battle, and earn Apus sector 
+                    $Enjimon! The Apus sector allows more trainers to get the required experience to raise 
+                    $Enjimon without the worry of immutable death. Many features have been removed, and 
+                    mechanics have been altered. All $Enjimon have alternate designs and descriptions. 
+                    Wallet Monsters Apus has new $Enjimon and items only available in the Apus sector. 
+                    WalleBytes tokens can be burned during burning periods, and users are rewarded with 
+                    access to a minting portal, where they will be able to obtain Apus $Enjimon and items. 
+                    Available soon.
+                </article>
+                <hr>
+                <img style="margin-left: 10px;"src="./assets/img/Apus_small_OpBanner.jpg" alt="">
+            </div>
+        </section>  
+     </section>
+    </div>
+  </div>
+      
+    <!--body-->
+    <footer style="margin-top: 100px;">
+      <p style="text-align: center;">Copyright &copy; 2022 Wallet Monsters</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./assets/walleApp.js" ></script>
+  <script src="./assets/abi.js" ></script>
+  </body>
+  </html>
